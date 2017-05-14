@@ -9,7 +9,10 @@
     <div class="grid container">
       <header class="row">
         <div class="col-6">
-          <img src="http://placehold.it/100x100" alt="logo image"/>
+          <picture>
+            <source srcset="images/logo-100_1x.jpg 1x, images/logo-200_2x.jpg 2x"/>
+            <img src="images/logo-100_1x.jpg" alt="logo image"/>
+          </picture>
         </div>
         <div class="col-6 name">
           <h1>Jane Doette</h1>
@@ -18,7 +21,11 @@
       </header>
       <section class="row">
         <div class="col-12">
-          <img id="splash" src="http://placehold.it/960x450" alt="splash image"/>
+          <picture>
+            <source media="(max-width: 500px)" srcset="images/splash-300_small_1x.jpg 1x, images/splash-600_small_2x.jpg 2x"/>
+            <source srcset="images/splash-960_1x.jpg 1x, images/splash-1920_2x.jpg 2x"/>
+            <img id="splash" src="images/splash-960_1x.jpg" alt="splash image"/>
+          </picture>
         </div>
       </section>
       <section class="featured row">
@@ -26,17 +33,26 @@
           <h2>Featured Work</h2>
         </header>
         <article class="col-4">
-          <img src="http://placehold.it/300x200" alt="appify icon"/>
+          <picture>
+            <source srcset="images/appify-300_1x.jpg 1x, images/appify-600_2x.jpg 2x"/>
+            <img src="images/appify-300_1x.jpg" alt="appify icon"/>
+          </picture>
           <h2>Appify</h2>
           <p>https://github.com/udacity/Appify</p>
         </article>
         <article class="col-4">
-          <img src="http://placehold.it/300x200" alt="sunflower icon"/>
+          <picture>
+            <source srcset="images/sunflower-300_1x.jpg 1x, images/sunflower-600_2x.jpg 2x"/>
+            <img src="images/sunflower-300_1x.jpg" alt="sunflower icon"/>
+          </picture>
           <h2>Sunflower</h2>
           <p>https://github.com/udacity/Sunflower</p>
         </article>
         <article class="col-4">
-          <img src="http://placehold.it/300x200" alt="bokeh icon"/>
+          <picture>
+            <source srcset="images/bokeh-300_1x.jpg 1x, images/bokeh-600_2x.jpg 2x"/>
+            <img src="images/bokeh-300_1x.jpg" alt="bokeh icon"/>
+          </picture>
           <h2>Bokeh</h2>
           <p>https://github.com/udacity/Bokeh</p>
         </article>

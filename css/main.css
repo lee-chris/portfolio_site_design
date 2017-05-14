@@ -11,6 +11,7 @@ div.name {
 }
 
 img#splash {
+	width: 100%;
 	max-width: 100%;
 }
 
