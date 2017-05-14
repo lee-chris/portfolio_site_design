@@ -16,20 +16,20 @@ img#splash {
 
 /* featured work classes */
 
-div.featured div {
+.featured article {
 	text-align: center;
 }
 
 @media only screen and (max-width: 930px) {
 	
-	div.featured div.col-4 {
+	.grid .featured .col-4 {
 		width: 50%;
 	}
 }
 
 @media only screen and (max-width: 640px) {
 	
-	div.featured div.col-4 {
+	.grid .featured .col-4 {
 		width: 100%;
 	}
 }
