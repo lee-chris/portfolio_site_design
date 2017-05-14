@@ -16,6 +16,7 @@ div.name {
 
 .grid .row {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 }
 
