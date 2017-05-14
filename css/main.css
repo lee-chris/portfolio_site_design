@@ -21,6 +21,7 @@ h4 {
 	margin-right: auto;
 }
 
+
 /* header classes */
 
 .header .name {
@@ -91,6 +92,7 @@ img#splash {
 
 .featured article {
 	text-align: center;
+	margin-bottom: 2em;
 }
 
 .featured article h2 {
@@ -115,6 +117,7 @@ img#splash {
 		width: 100%;
 	}
 }
+
 
 /* grid classes */
 
