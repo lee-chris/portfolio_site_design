@@ -4,8 +4,30 @@ div.container {
 	margin-right: auto;
 }
 
+/* header classes */
+
 div.name {
 	text-align: right;
+}
+
+/* featured work classes */
+
+div.featured div {
+	text-align: center;
+}
+
+@media only screen and (max-width: 930px) {
+	
+	div.featured div.col-4 {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	
+	div.featured div.col-4 {
+		width: 100%;
+	}
 }
 
 /* grid classes */
